@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="assets/css/Pass_Style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Password Generator</title>
+</head>
+
+<body>
+
+
+  <div class="container" id="inst">
+    <div class="row">
+      <div class="col">
+        
+      </div>
+      <div class="col-6" id="card">
+        <div class="card bg-light mb-3" style="max-width: 50rem;">
+          <div class="card-header" style="background-color:#ff6f33;">Password Generator</div>
+          <div class="card-body" style="background-color: #fdc300;">
+            <form>
+              <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="capital">
+                <label class="custom-control-label" for="capital">Capital Letters</label>
+              </div>
+              <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="special">
+                <label class="custom-control-label" for="special">Special Character</label>
+              </div>
+              <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="numbers">
+                <label class="custom-control-label" for="numbers">Numbers</label>
+              </div>
+              <input type="number" id="charNum" value="8" min="8" max="128" /><br />
+              <div class="form-group">
+
+                <label for="exampleFormControlTextarea1">New Password</label>
+                <textarea class="form-control" id="newpass" rows="3"></textarea>
+
+              </div>
+              <button type="button" style="background-color: #ff6f33;" class="btn btn-primary"
+                id="gen">Generate</button>
+              <button type="button" style="background-color: #ff6f33;" class="btn btn-primary" id="copy">Copy</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+
+      </div>
+    </div>
+
+    <h3><p>It is recomended you select a Password with all options selected. This
+      will ensure you have a strong and secure password. Also their is a copy button so
+      you can save in a secure folder on your computer.</p></h3>
+
+
+    
+
+    <!-- Optional JavaScript -->
+    <script src="assets/js/Pass_Js.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

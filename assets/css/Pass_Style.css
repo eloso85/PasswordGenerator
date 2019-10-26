@@ -1,0 +1,13 @@
+body{
+    background-image:url("../img/passback.jpg");
+    margin: 0%;
+}
+
+#inst p{
+    color: aquamarine;
+    
+}
+
+#card{
+    margin-top: 50px;
+}
